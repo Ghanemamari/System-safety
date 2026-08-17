@@ -19,6 +19,9 @@ Thumbs.db
 .idea/
 .vscode/
 
+# Local reference papers
+articles/
+
 # Local model caches, checkpoints, and downloaded weights
 .cache/
 models/
