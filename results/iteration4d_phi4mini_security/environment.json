@@ -1,0 +1,23 @@
+{
+  "timestamp_utc": "2026-08-17T12:50:36.169026+00:00",
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "model_revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "parameter_count": 3836021760,
+  "python": "3.12.3",
+  "pytorch": "2.8.0+cu128",
+  "transformers": "5.15.0",
+  "cuda_runtime": "12.8",
+  "cuda_available": true,
+  "bf16_supported": true,
+  "gpu": "NVIDIA RTX A5000",
+  "gpu_total_bytes": 25283526656,
+  "system_ram_total_bytes": 540642496512,
+  "system_ram_available_bytes": 444288409600,
+  "workspace_disk_free_bytes": 163795661684736,
+  "pre_regression_tests": {
+    "tests": 63,
+    "status": "PASS",
+    "duration_seconds": 13.189,
+    "offline_mode": true
+  }
+}

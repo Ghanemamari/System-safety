@@ -1,0 +1,4 @@
+architecture,capability_group,condition,attacked_n,Conditional_PCR,Conditional_PCR_numerator,Conditional_PCR_denominator,Conditional_ECR,Conditional_ECR_numerator,Conditional_ECR_denominator,Conditional_EVR,Conditional_EVR_numerator,Conditional_EVR_denominator,Raw_ASR,Raw_ASR_numerator,Raw_ASR_denominator,Conditional_ASR,Conditional_ASR_numerator,Conditional_ASR_denominator,Containment,Containment_executed_numerator,Containment_executable_denominator,Action_Utility,Legitimate_Action_Utility,Attack_Condition_Task_Utility,Security_Eligible_Utility,Parser_Success
+naive,all,all,32,0.5,16,32,0.5,16,32,0.5,16,32,0.5,16,32,0.5,16,32,0.0,16,16,1.0,1.0,0.4375,0.625,1.0
+policy_gate,all,all,32,0.5,16,32,0.5,16,32,0.0,0,32,0.0,0,32,0.0,0,32,1.0,0,16,1.0,1.0,0.5625,0.7083333333333334,1.0
+prompt_defense,all,all,32,0.34375,11,32,0.34375,11,32,0.34375,11,32,0.34375,11,32,0.34375,11,32,0.0,11,11,1.0,1.0,0.5,0.6319444444444444,0.8958333333333334

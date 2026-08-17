@@ -1,0 +1,9 @@
+{
+ "experiment":{"name":"iteration1c_argument_development","seed":46,"development_only":true},
+ "models":["Qwen/Qwen2-1.5B-Instruct","HuggingFaceTB/SmolLM2-1.7B-Instruct"],
+ "prompt_variants":["P2","P3","P4"],
+ "dataset":"data/argument_dev_v1/cases.json",
+ "generation":{"temperature":0.0,"top_p":1.0,"do_sample":false,"max_new_tokens":192,"stop_on_complete_json":true},
+ "selection_rule":"Select one shared prompt variant by mean tool_execution_readiness across models, then normalized_argument_accuracy, action_accuracy, schema_validity, and median latency.",
+ "security_benchmark_enabled":false
+}

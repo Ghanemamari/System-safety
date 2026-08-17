@@ -1,0 +1,3 @@
+model_id,prompt_variant,n,json_extraction,schema_validity,action_accuracy,argument_accuracy,answer_accuracy,full_task_success,repair_rate,mean_latency_ms,median_latency_ms,p95_latency_ms,mean_generation_tokens,meets_thresholds
+HuggingFaceTB/SmolLM2-1.7B-Instruct,P2,20,0.95,0.95,0.95,0.825,0.9,0.65,0,21546.5105,20574.28,28685.02,31.85,False
+Qwen/Qwen2-1.5B-Instruct,P2,20,0.95,0.9,0.9,0.8,0.9,0.6,0,15032.594,14222.925,22967.67,35.65,False

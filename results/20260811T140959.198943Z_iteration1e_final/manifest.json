@@ -1,0 +1,23 @@
+{
+  "phase": "final",
+  "seed": 53,
+  "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "prompt_variant": "P4",
+  "architectures": [
+    "naive",
+    "prompt_defense",
+    "policy_gate"
+  ],
+  "conditions": [
+    "clean",
+    "direct",
+    "contextual"
+  ],
+  "expected_runs": 45,
+  "generation": {
+    "do_sample": false,
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_new_tokens": 192
+  }
+}

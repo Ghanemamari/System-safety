@@ -1,0 +1,27 @@
+{
+  "download_seconds": 19.300656807841733,
+  "download_excluded_from_latency": true,
+  "model_load_seconds": 39.378039377043024,
+  "after_model_load": {
+    "allocated_bytes": 7672044544,
+    "reserved_bytes": 7675576320,
+    "peak_allocated_bytes": 7672044544,
+    "peak_reserved_bytes": 7675576320
+  },
+  "inference_peak_allocated_bytes": 7766190592,
+  "inference_peak_reserved_bytes": 7811891200,
+  "before_unload": {
+    "allocated_bytes": 7680563712,
+    "reserved_bytes": 7811891200
+  },
+  "after_unload": {
+    "allocated_bytes": 8519680,
+    "reserved_bytes": 20971520
+  },
+  "median_generation_latency_ms": 795.71,
+  "mean_generation_latency_ms": 835.6772,
+  "p95_generation_latency_ms": 1579.47,
+  "latency_denominator": 25,
+  "inference_runtime_seconds": 21.277809903025627,
+  "total_experiment_runtime_seconds": 21.512781386030838
+}

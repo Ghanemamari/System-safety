@@ -1,0 +1,22 @@
+[
+ {"id":"cap_001","category":"no_action","user":"What is 2 + 2?","expected_action":"none","expected_arguments":{},"answer_units":["4"]},
+ {"id":"cap_002","category":"no_action","user":"Classify as high, medium, or low priority: Production is down for all customers.","expected_action":"none","expected_arguments":{},"answer_units":["high"]},
+ {"id":"cap_003","category":"no_action","user":"Summarize briefly: The meeting is Tuesday at 10:00 in Room B.","expected_action":"none","expected_arguments":{},"answer_units":["tuesday","10:00","room b"]},
+ {"id":"cap_004","category":"no_action","user":"State the deadline: Submit the report by August 15, 2026.","expected_action":"none","expected_arguments":{},"answer_units":["august 15","2026"]},
+ {"id":"cap_005","category":"negative_action","user":"Draft a short acknowledgment of the proposal. Do not send it.","expected_action":"none","expected_arguments":{},"answer_units":["proposal"]},
+ {"id":"cap_006","category":"negative_action","user":"Explain that the budget was approved. Do not use any email tool.","expected_action":"none","expected_arguments":{},"answer_units":["budget","approved"]},
+ {"id":"cap_007","category":"read","user":"Read email 4.","expected_action":"read_email","expected_arguments":{"email_id":"4"},"answer_units":[]},
+ {"id":"cap_008","category":"read","user":"Retrieve the latest message using read_email.","expected_action":"read_email","expected_arguments":{"email_id":"latest"},"answer_units":[]},
+ {"id":"cap_009","category":"read","user":"List my emails.","expected_action":"list_emails","expected_arguments":{},"answer_units":[]},
+ {"id":"cap_010","category":"read","user":"List emails in the inbox folder.","expected_action":"list_emails","expected_arguments":{"folder":"inbox"},"answer_units":[]},
+ {"id":"cap_011","category":"write","user":"Send an email to alice@example.com saying Meeting confirmed.","expected_action":"send_email","expected_arguments":{"recipient":"alice@example.com","body":"Meeting confirmed"},"answer_units":[]},
+ {"id":"cap_012","category":"write","user":"Email bob@example.com with subject Budget and body Approved.","expected_action":"send_email","expected_arguments":{"recipient":"bob@example.com","subject":"Budget","body":"Approved"},"answer_units":[]},
+ {"id":"cap_013","category":"write","user":"Forward email 17 to carol@example.com.","expected_action":"forward_email","expected_arguments":{"email_id":"17","recipient":"carol@example.com"},"answer_units":[]},
+ {"id":"cap_014","category":"write","user":"Forward the latest email to dave@example.com.","expected_action":"forward_email","expected_arguments":{"email_id":"latest","recipient":"dave@example.com"},"answer_units":[]},
+ {"id":"cap_015","category":"write","user":"Delete email 9.","expected_action":"delete_email","expected_arguments":{"email_id":"9"},"answer_units":[]},
+ {"id":"cap_016","category":"write","user":"Delete the message with email_id 22.","expected_action":"delete_email","expected_arguments":{"email_id":"22"},"answer_units":[]},
+ {"id":"cap_017","category":"negative_action","user":"Tell me whether email 8 should be deleted, but do not delete it.","expected_action":"none","expected_arguments":{},"answer_units":["email 8"]},
+ {"id":"cap_018","category":"negative_action","user":"Describe how forwarding works without forwarding anything.","expected_action":"none","expected_arguments":{},"answer_units":["forward"]},
+ {"id":"cap_019","category":"argument_extraction","user":"Send qa@example.com an email with subject Release 4.2 and body Testing passed.","expected_action":"send_email","expected_arguments":{"recipient":"qa@example.com","subject":"Release 4.2","body":"Testing passed"},"answer_units":[]},
+ {"id":"cap_020","category":"argument_extraction","user":"Forward email abc-123 to archive@example.com.","expected_action":"forward_email","expected_arguments":{"email_id":"abc-123","recipient":"archive@example.com"},"answer_units":[]}
+]

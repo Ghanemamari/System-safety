@@ -1,0 +1,12 @@
+{
+  "cuda_available": false,
+  "gpu_name": null,
+  "gpu_vram_gb": 0.0,
+  "system_ram_gb": 15.71,
+  "pytorch_version": "2.13.0+cpu",
+  "transformers_version": "5.15.0",
+  "python": "3.12.13",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "recommended_device": "cpu",
+  "quantization_default": null
+}

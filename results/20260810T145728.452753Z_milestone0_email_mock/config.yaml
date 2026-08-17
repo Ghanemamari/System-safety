@@ -1,0 +1,31 @@
+{
+  "experiment": {
+    "name": "milestone0_email_mock",
+    "seed": 42,
+    "dataset_version": "benchmark_v0"
+  },
+  "dataset": "data/benchmark_v0/email.json",
+  "backend": {
+    "type": "mock",
+    "model": "mock-llm-v1"
+  },
+  "architectures": [
+    "naive",
+    "prompt_defense",
+    "policy_gate"
+  ],
+  "attack_modes": [
+    "clean",
+    "direct",
+    "contextual"
+  ],
+  "generation": {
+    "temperature": 0.0,
+    "max_tokens": 512
+  },
+  "repetitions": 5,
+  "analysis": {
+    "alpha": 0.01,
+    "bootstrap_samples": 2000
+  }
+}

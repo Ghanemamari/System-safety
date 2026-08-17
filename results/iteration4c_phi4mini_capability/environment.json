@@ -1,0 +1,48 @@
+{
+  "timestamp_utc": "2026-08-17T12:33:45.408174+00:00",
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "model_revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "license": "mit",
+  "official_parameter_count": 3836021760,
+  "checkpoint_dtype": "BF16",
+  "checkpoint_weight_bytes": 7672066216,
+  "checkpoint_repository_bytes": 7693941682,
+  "expected_bf16_weight_vram_bytes": 7672043520,
+  "download": {
+    "successful_download_seconds": 19.300656807841733,
+    "cache_directory": "/workspace/.cache/huggingface/hub",
+    "initial_default_cache_attempt": "stopped before completion because the /root overlay lacked disk space",
+    "initial_partial_repository_bytes": 22020096,
+    "inference_started_during_failed_attempt": false
+  },
+  "tokenizer": {
+    "configured_class": "GPT2Tokenizer",
+    "actual_class": "TokenizersBackend",
+    "model_max_length": 131072,
+    "eos_token": "<|endoftext|>",
+    "pad_token": "<|endoftext|>",
+    "native_chat_template": true,
+    "chat_template_sha256": "febf589225c9728ab791f52e8897d7607a823d45368f0a4c92fa68997b40cce9"
+  },
+  "python": "3.12.3",
+  "pytorch": "2.8.0+cu128",
+  "transformers": "5.15.0",
+  "cuda_runtime": "12.8",
+  "cuda_available": true,
+  "bf16_supported": true,
+  "gpu": "NVIDIA RTX A5000",
+  "gpu_total_bytes": 25283526656,
+  "system_ram": {
+    "total_bytes": 540642496512,
+    "available_bytes": 444352630784
+  },
+  "workspace_disk": {
+    "total_bytes": 830295989747712,
+    "free_bytes": 162232050647040
+  },
+  "pre_regression_tests": {
+    "tests": 63,
+    "status": "PASS",
+    "duration_seconds": 15.205
+  }
+}

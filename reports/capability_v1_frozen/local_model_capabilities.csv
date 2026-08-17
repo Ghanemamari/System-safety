@@ -1,0 +1,9 @@
+timestamp_utc,model_id,model_loading_success,load_latency_ms,load_error,chat_template_success,generation_success_rate,structured_output_success_rate,schema_validity_rate,task_action_compliance_rate,average_latency_ms,average_generation_tokens,peak_gpu_memory_mb,generation_errors,cuda_available,gpu_name,system_ram_gb,pytorch_version,transformers_version,suitable
+2026-08-11T09:53:35.992528+00:00,Qwen/Qwen2.5-1.5B-Instruct,True,5811.28,,True,1.0,1.0,0.9,0.6,13737.6,28.3,0.0,,False,,15.71,2.13.0+cpu,5.15.0,False
+2026-08-11T09:53:36.588174+00:00,meta-llama/Llama-3.2-1B-Instruct,False,594.21,"OSError: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct.
+401 Client Error. (Request ID: Root=1-6a7af120-619172137cc313ab57ad615b;c837fa75-f84a-4dd6-af0c-b275f2f35e02)
+
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct/resolve/main/config.json.
+Access to model meta-llama/Llama-3.2-1B-Instruct is restricted. You must have access to it and be authenticated to access it. Please log in.",False,0.0,0.0,0.0,0.0,,,,,False,,15.71,2.13.0+cpu,5.15.0,False
+2026-08-11T10:02:41.370740+00:00,Qwen/Qwen2-1.5B-Instruct,True,373295.62,,True,1.0,1.0,0.7,0.7,16999.372,30.7,0.0,,False,,15.71,2.13.0+cpu,5.15.0,False

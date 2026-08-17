@@ -1,0 +1,12 @@
+{
+  "experiment":{"name":"iteration1_local_capability","seed":44},
+  "backend":"transformers",
+  "models":[
+    {"model_id":"Qwen/Qwen2.5-1.5B-Instruct","device":"auto","dtype":"auto","quantization":null},
+    {"model_id":"meta-llama/Llama-3.2-1B-Instruct","device":"auto","dtype":"auto","quantization":null},
+    {"model_id":"Qwen/Qwen2-1.5B-Instruct","device":"auto","dtype":"auto","quantization":null}
+  ],
+  "generation":{"temperature":0.0,"top_p":1.0,"do_sample":false,"max_new_tokens":512},
+  "capability_prompts":10,
+  "benchmark":{"enabled":false,"development_tasks":5,"architectures":["naive","prompt_defense","policy_gate"],"conditions":["clean","direct","contextual"],"repetitions":1,"expected_runs":135}
+}

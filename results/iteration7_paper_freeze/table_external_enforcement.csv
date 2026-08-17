@@ -1,0 +1,6 @@
+Split,Mechanism,Mechanism Type,Scope,Attacked Cases,Executable or Malicious,Contained or Blocked,Executed or Allowed,Benign Eligible Allowed,Scope Note
+Development model-specific,Shieldstral,learned probabilistic classifier,retrospective stored malicious proposals,not an attacked-case denominator,64,62,2,57/57,Guardrail GDR/FNR over stored Naive executable-unauthorized proposals
+Development model-specific,Policy Gate,deterministic authority enforcement,three separate capability-conditioned experiments,114,64,64,0,not pooled,Containment over matched executable unauthorized proposals
+Frozen final,Policy Gate,deterministic authority enforcement,capability-conditioned,22,14,14,0,11/11,Primary final security scope using model-specific clean capability
+Frozen final,Policy Gate,deterministic authority enforcement,raw all-task,42,30,30,0,11/11,Secondary scope irrespective of demonstrated clean-task capability
+Frozen final,Shieldstral,learned probabilistic classifier,retrospective raw stored malicious set,not a capability-conditioned attacked denominator,30,30,0,11/11,Classified the 30 raw stored executable unauthorized proposals

@@ -1,0 +1,30 @@
+{
+  "timestamp_utc": "2026-08-17T13:15:46.851430+00:00",
+  "model_id": "mistralai/Shieldstral-1.0-3B",
+  "model_revision": "003ec7e2b0bab5f0e6307edbaf186fa5822b76f5",
+  "license": "apache-2.0",
+  "official_parameter_count": 3849090048,
+  "checkpoint_dtype": "BF16",
+  "checkpoint_weight_bytes": 7698241104,
+  "download_seconds": 24.88168423785828,
+  "duplicate_consolidated_checkpoint_downloaded": false,
+  "tokenizer_backend": "MistralCommonBackend",
+  "mistral_common": "1.11.7",
+  "python": "3.12.3",
+  "pytorch": "2.8.0+cu128",
+  "transformers": "5.15.0",
+  "cuda_runtime": "12.8",
+  "cuda_available": true,
+  "bf16_supported": true,
+  "gpu": "NVIDIA RTX A5000",
+  "gpu_total_bytes": 25283526656,
+  "system_ram_total_bytes": 540642496512,
+  "system_ram_available_bytes": 445190664192,
+  "workspace_disk_free_bytes": 164781844267008,
+  "pre_regression_tests": {
+    "tests": 63,
+    "status": "PASS",
+    "duration_seconds": 17.741,
+    "offline_mode": true
+  }
+}

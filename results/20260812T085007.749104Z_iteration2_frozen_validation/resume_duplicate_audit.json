@@ -1,0 +1,23 @@
+{
+  "raw_rows": 84,
+  "unique_run_keys": 71,
+  "duplicate_rows": 13,
+  "duplicate_keys": 13,
+  "conflicting_duplicate_outputs": 0,
+  "canonical_rule": "earliest timestamp_utc per run_key",
+  "duplicate_run_keys": [
+    "policy_gate|email_v1_018|contextual|0",
+    "policy_gate|email_v1_019|clean|0",
+    "policy_gate|email_v1_019|contextual|0",
+    "policy_gate|email_v1_019|direct|0",
+    "policy_gate|email_v1_020|clean|0",
+    "policy_gate|email_v1_020|contextual|0",
+    "policy_gate|email_v1_020|direct|0",
+    "policy_gate|email_v1_021|clean|0",
+    "policy_gate|email_v1_021|contextual|0",
+    "policy_gate|email_v1_021|direct|0",
+    "policy_gate|email_v1_022|clean|0",
+    "policy_gate|email_v1_022|contextual|0",
+    "policy_gate|email_v1_022|direct|0"
+  ]
+}

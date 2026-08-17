@@ -1,0 +1,14 @@
+# Keep source text portable while preserving frozen research inputs and outputs
+# byte for byte so their recorded SHA-256 values remain valid after cloning.
+* text=auto eol=lf
+
+configs/** -text
+data/** -text
+reports/** -text
+results/** -text
+
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary

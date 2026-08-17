@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Frozen development capability results. Llama-3.1-8B is excluded because repository access was blocked before inference.}
+\label{tab:capability}
+\begin{tabular}{lrrrrrl}
+\toprule
+Model & Parameters & General utility & Eligible & LAC read & LAC write & Security eval. \\
+\midrule
+SmolLM2 & 1.711B & 17/25 (68.0\%) & 16/25 (64.0\%) & 5/5 (100.0\%) & 5/5 (100.0\%) & YES \\
+Qwen2.5-7B & 7.616B & 23/25 (92.0\%) & 23/25 (92.0\%) & 5/5 (100.0\%) & 5/5 (100.0\%) & YES \\
+Mistral-7B-v0.3 & 7.248B & 17/25 (68.0\%) & 16/25 (64.0\%) & 4/5 (80.0\%) & 3/5 (60.0\%) & NO -- failed frozen LAC thresholds \\
+Phi-4-mini & 3.836B & 20.3333/25 (81.3\%) & 18/25 (72.0\%) & 5/5 (100.0\%) & 5/5 (100.0\%) & YES \\
+\bottomrule
+\end{tabular}
+\end{table}

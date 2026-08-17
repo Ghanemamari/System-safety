@@ -1,0 +1,318 @@
+{
+  "created_utc": "2026-08-17T14:14:42.172754+00:00",
+  "no_inference": true,
+  "source_experiments": [
+    {
+      "experiment_name": "Iteration 2A SmolLM2 capability",
+      "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "model_revision": "31b70e2e869a7173562077fd711b654946d38674",
+      "revision_note": "Revision absent from original Iteration 2 artifact; matching revision was recovered and frozen in Iteration 6.",
+      "split": "development",
+      "task_count": 25,
+      "run_count": 25,
+      "directory": "/workspace/NeurIPS/results/20260812T104118.870114Z_iteration2a_legitimate_capability",
+      "primary_result_files": [
+        "runs_evaluator_corrected.jsonl",
+        "metrics.json",
+        "security_eligibility.jsonl",
+        "manifest.json"
+      ],
+      "primary_result_sha256": {
+        "runs_evaluator_corrected.jsonl": "951790fe5a598c0f063292f8f9f0832f74ea5ecb9686921698bbc4825dc9a2ac",
+        "metrics.json": "68fa3c8c74f7e1df6d67dca8a1ec3282a1c6de2a83331206c27df879eaf3f43a",
+        "security_eligibility.jsonl": "5b74dec1636778eb38c618e870f9fbba42697b700ce6284657f3f8501147cffc",
+        "manifest.json": "a978c78373778c4c643cdd3237139377f607bcde5252cc0f7093a09063f585a7"
+      },
+      "existing_hash_manifest_verification": {
+        "manifest": null,
+        "status": "NOT_AVAILABLE",
+        "entries": 0,
+        "mismatches": []
+      }
+    },
+    {
+      "experiment_name": "Iteration 2B SmolLM2 security",
+      "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "model_revision": "31b70e2e869a7173562077fd711b654946d38674",
+      "revision_note": "Revision absent from original Iteration 2 artifact; matching revision was recovered and frozen in Iteration 6.",
+      "split": "development",
+      "task_count": 16,
+      "run_count": 144,
+      "directory": "/workspace/NeurIPS/results/20260812T120446.636116Z_iteration2b_security_eligible",
+      "primary_result_files": [
+        "runs.jsonl",
+        "metrics.json",
+        "manifest.json",
+        "primary_security_table.csv"
+      ],
+      "primary_result_sha256": {
+        "runs.jsonl": "0e575df23a99842e31490249b84b16192df10647a4ebee43bf38733a17794c65",
+        "metrics.json": "c636f30b4a31c19e870631c8826480afdd0e76b7e9d066ca1ef160f3084cc6a3",
+        "manifest.json": "45a49c8b27ba545f6ada6fee43b14ecbc28a209954bb69069ef17f94eac9f183",
+        "primary_security_table.csv": "bd9724d9e2d34534682b2196bd1cd53ea9f1a5cebe3712c178c0af46a7aa7d18"
+      },
+      "existing_hash_manifest_verification": {
+        "manifest": null,
+        "status": "NOT_AVAILABLE",
+        "entries": 0,
+        "mismatches": []
+      }
+    },
+    {
+      "experiment_name": "Iteration 3A Qwen capability",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "split": "development",
+      "task_count": 25,
+      "run_count": 25,
+      "directory": "/workspace/NeurIPS/results/iteration3a_qwen25_7b_runpod",
+      "primary_result_files": [
+        "raw_runs.jsonl",
+        "metrics.json",
+        "security_eligibility.jsonl",
+        "config.json",
+        "artifact_sha256.txt"
+      ],
+      "primary_result_sha256": {
+        "raw_runs.jsonl": "91e52f24a40bf700a90d3c6d5ff32a4042f9ad36749593e61d82aec82063ac56",
+        "metrics.json": "dd0b176b79c32d40068d6adfaf221283be08d32d23d808b185b6a1280e8f2195",
+        "security_eligibility.jsonl": "785a17c2afb93decb224bbcf1796ff1d7ccfe81fb48cd34fb049f8e1fd538c60",
+        "config.json": "8101ac45db52b068e0b82e682f5dce68f683247c427e47ce80cafa9fec671956",
+        "artifact_sha256.txt": "9a95962fdfa7421b79a3ff6b3e5401483ecad473cfa2965411ad73be9ff97a56"
+      },
+      "existing_hash_manifest_verification": {
+        "manifest": "results/iteration3a_qwen25_7b_runpod/artifact_sha256.txt",
+        "status": "PASS",
+        "entries": 13,
+        "mismatches": []
+      }
+    },
+    {
+      "experiment_name": "Iteration 3B Qwen security",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "split": "development",
+      "task_count": 23,
+      "run_count": 207,
+      "directory": "/workspace/NeurIPS/results/iteration3b_qwen25_7b_security",
+      "primary_result_files": [
+        "raw_runs.jsonl",
+        "metrics.json",
+        "config.json",
+        "common_eligibility_comparison.csv",
+        "matched_naive_policy_outputs.csv",
+        "artifact_sha256.txt"
+      ],
+      "primary_result_sha256": {
+        "raw_runs.jsonl": "85260fbf7e2548570b79b08077261b0c8cffd5c3711ffb31f3adbfdd1804bd90",
+        "metrics.json": "e2942a4515128f52b44a7a1f48d7bd154686a6114d20f2b89e94b2a8d65e223e",
+        "config.json": "b4c3dc839ce3c0d990dbb36bb524d51b2fa81bf1dc2abf27b2403e820345f74c",
+        "common_eligibility_comparison.csv": "e06ad0925aae05fa06415fcf4ec75358fa47c4c57f067cd7cccfaee918b25722",
+        "matched_naive_policy_outputs.csv": "6667d268e42fb4504b59dc1fad5827283ceacb7f0a0b45c039d36ce4493c0329",
+        "artifact_sha256.txt": "cb2b054397eb3fcb9d4e6ecb2dc45b1c4c35f8f98b23c5d28bc0386702c5740c"
+      },
+      "existing_hash_manifest_verification": {
+        "manifest": "results/iteration3b_qwen25_7b_security/artifact_sha256.txt",
+        "status": "PASS",
+        "entries": 17,
+        "mismatches": []
+      }
+    },
+    {
+      "experiment_name": "Iteration 4A Mistral capability",
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "model_revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+      "split": "development",
+      "task_count": 25,
+      "run_count": 25,
+      "directory": "/workspace/NeurIPS/results/iteration4a_mistral7b_capability",
+      "primary_result_files": [
+        "raw_runs.jsonl",
+        "metrics.json",
+        "security_eligibility.jsonl",
+        "config.json",
+        "MANIFEST.sha256"
+      ],
+      "primary_result_sha256": {
+        "raw_runs.jsonl": "dc72cb6f7e48d5244359c752ab36c4f781335f95a0f9e9dcf9d56511b6d3cb70",
+        "metrics.json": "dc502490bb724de869c1cecd128fc95a08bbbf76775a68f8418a9796a949a201",
+        "security_eligibility.jsonl": "9d166b483d32834b7f0de6f55afe338430c067090aac34b77955d7cd6173f73a",
+        "config.json": "1d58a4823e9127ea24bbd355c50bed550292e015af36ec5d8b6dc22017ef8c66",
+        "MANIFEST.sha256": "7c0793586cd0cae1a046a1bf9546cac342a6b1be07359bee6a1b0c2e8bb6d6b1"
+      },
+      "existing_hash_manifest_verification": {
+        "manifest": "results/iteration4a_mistral7b_capability/MANIFEST.sha256",
+        "status": "PASS",
+        "entries": 17,
+        "mismatches": []
+      }
+    },
+    {
+      "experiment_name": "Iteration 4B Llama access preflight",
+      "model": "meta-llama/Llama-3.1-8B-Instruct",
+      "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "split": "preflight only",
+      "task_count": 25,
+      "run_count": 0,
+      "directory": "/workspace/NeurIPS/results/iteration4b_llama31_8b_capability",
+      "primary_result_files": [
+        "metrics.json",
+        "config.json",
+        "environment.json",
+        "MANIFEST.sha256"
+      ],
+      "primary_result_sha256": {
+        "metrics.json": "fb34c4facf0418a6004ff7f9126f30fc3c49aba215d61e387195844abe5630a8",
+        "config.json": "001c4dbb5ba28fee6b64796e924b4a5cf75713e60cea083896abdc333e9bbe45",
+        "environment.json": "9513addddb1b2a0c766770757786caa610d52818c157bd0c51fead9f02bc0512",
+        "MANIFEST.sha256": "8b64804c97c1bf923e93cf3704a7df71a7f7c0ed1c53214f6af28c669eea1656"
+      },
+      "existing_hash_manifest_verification": {
+        "manifest": "results/iteration4b_llama31_8b_capability/MANIFEST.sha256",
+        "status": "PASS",
+        "entries": 5,
+        "mismatches": []
+      }
+    },
+    {
+      "experiment_name": "Iteration 4C Phi capability",
+      "model": "microsoft/Phi-4-mini-instruct",
+      "model_revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+      "split": "development",
+      "task_count": 25,
+      "run_count": 25,
+      "directory": "/workspace/NeurIPS/results/iteration4c_phi4mini_capability",
+      "primary_result_files": [
+        "raw_runs.jsonl",
+        "metrics.json",
+        "security_eligibility.jsonl",
+        "config.json",
+        "artifact_sha256.txt"
+      ],
+      "primary_result_sha256": {
+        "raw_runs.jsonl": "2bad9373716c79f2b08b97ef30da2bd870faae443a0924f2ad686694a8758326",
+        "metrics.json": "5ce9a11185ba5e7a0e95940a44e70066b91c2b39f8f2a50c906e035645558fd6",
+        "security_eligibility.jsonl": "ae3e627a56ca7edf0679e469bee22721e9110ad39137239d514bd243deb50b8f",
+        "config.json": "036380b5c4183152d84eea352c986b00bec8efd882010640863fcbda16f56ae9",
+        "artifact_sha256.txt": "db361a88fe2fa1398fdfe07499d8bca1e3828007d2bba589aba77786394808a1"
+      },
+      "existing_hash_manifest_verification": {
+        "manifest": "results/iteration4c_phi4mini_capability/artifact_sha256.txt",
+        "status": "PASS",
+        "entries": 17,
+        "mismatches": []
+      }
+    },
+    {
+      "experiment_name": "Iteration 4D Phi security",
+      "model": "microsoft/Phi-4-mini-instruct",
+      "model_revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+      "split": "development",
+      "task_count": 18,
+      "run_count": 162,
+      "directory": "/workspace/NeurIPS/results/iteration4d_phi4mini_security",
+      "primary_result_files": [
+        "raw_runs.jsonl",
+        "metrics.json",
+        "config.json",
+        "common_eligibility_comparison.csv",
+        "matched_naive_policy_outputs.json",
+        "artifact_sha256.txt"
+      ],
+      "primary_result_sha256": {
+        "raw_runs.jsonl": "4fc99ee93c93b3344c4e778dd9f1aecec499e495b40ca394e02b7d18bc099ce3",
+        "metrics.json": "faaf7d66e6fb18f002e88c92bfecedb6b44b53d5e97b8ea5b2b65479b8cc2c79",
+        "config.json": "c3ac1d63b3338c77c2ad0f6661a9d00e3381f80bac57b9dc4c7b2edce623aa46",
+        "common_eligibility_comparison.csv": "d110b4986c8ff0547c063c9ad3ae188b474aaaa12c9b9e824be94129f6336c2e",
+        "matched_naive_policy_outputs.json": "02fc17aa3c77ca11f0adb4e40923d77c84e4bc396091c4f53c78eac988e2f626",
+        "artifact_sha256.txt": "1f14dc08dac817dbd80adff9fcebbfc17b9c0cdfff427798a1031d9563a04abc"
+      },
+      "existing_hash_manifest_verification": {
+        "manifest": "results/iteration4d_phi4mini_security/artifact_sha256.txt",
+        "status": "PASS",
+        "entries": 19,
+        "mismatches": []
+      }
+    },
+    {
+      "experiment_name": "Iteration 5A Shieldstral baseline",
+      "model": "mistralai/Shieldstral-1.0-3B",
+      "model_revision": "003ec7e2b0bab5f0e6307edbaf186fa5822b76f5",
+      "split": "retrospective development proposals",
+      "task_count": 23,
+      "run_count": 121,
+      "directory": "/workspace/NeurIPS/results/iteration5a_shieldstral_guardrail",
+      "primary_result_files": [
+        "raw_classifications.jsonl",
+        "metrics.json",
+        "config.json",
+        "action_breakdown.csv",
+        "attack_type_breakdown.csv",
+        "false_negatives.csv",
+        "source_hashes.json",
+        "artifact_sha256.txt"
+      ],
+      "primary_result_sha256": {
+        "raw_classifications.jsonl": "169e0e5c2d90a8b92f9fa75e73c14153e93e53773baadd2b2e0fcbcfab146f34",
+        "metrics.json": "ce0cdbc478cc98b66a5ed6543a4759278718e9356728ce76fe32dad34d8718ff",
+        "config.json": "eea74e1470e1da8ecad49d7b818f3cabc02f14984c719d8f407e59640ad97414",
+        "action_breakdown.csv": "f0eb899d218f63760bc4eb017bf78a8b033f446103e0bf02fb63a7525364b77e",
+        "attack_type_breakdown.csv": "e71f8272052b7924035d928c9f3a3fbc9396dfb99be7acad5f1c5927fbee7f17",
+        "false_negatives.csv": "adf26274fec386ecbf817f7ca1e5f151313170b11b435b9fe8a37aa18529c655",
+        "source_hashes.json": "1cfd138243e243dfaee696ab531e1845910259b06c2655b10abe3ccf1a4395ff",
+        "artifact_sha256.txt": "2a979111d40067872710eccf1c452b4cad42f6987021b00d6eda5162b65f1a1b"
+      },
+      "existing_hash_manifest_verification": {
+        "manifest": "results/iteration5a_shieldstral_guardrail/artifact_sha256.txt",
+        "status": "PASS",
+        "entries": 22,
+        "mismatches": []
+      }
+    },
+    {
+      "experiment_name": "Iteration 6 frozen held-out final",
+      "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct; Qwen/Qwen2.5-7B-Instruct; microsoft/Phi-4-mini-instruct",
+      "model_revision": "31b70e2e869a7173562077fd711b654946d38674; a09a35458c702b33eeacc393d103063234e8bc28; cfbefacb99257ffa30c83adab238a50856ac3083",
+      "split": "frozen test",
+      "task_count": 7,
+      "run_count": 189,
+      "directory": "/workspace/NeurIPS/results/iteration6_frozen_final",
+      "primary_result_files": [
+        "raw_agent_runs.jsonl",
+        "shieldstral_raw_classifications.jsonl",
+        "metrics.json",
+        "capability_results.csv",
+        "eligibility_by_model.json",
+        "conditional_security_results.csv",
+        "raw_security_results.csv",
+        "common_final_eligibility.json",
+        "common_final_security_results.csv",
+        "naive_policy_equivalence.csv",
+        "final_task_manifest.json",
+        "config.json",
+        "artifact_sha256.txt"
+      ],
+      "primary_result_sha256": {
+        "raw_agent_runs.jsonl": "5b620da534f13e0b0d2d4f98014ce72bb3a9bafdccf85fd1269f17dd8e64ee7d",
+        "shieldstral_raw_classifications.jsonl": "ba2cd9bf68441ca5398506ef661496bd6a251b50f09e92b1009ec369bb45302e",
+        "metrics.json": "a9ae6b82ee7dfe8d7171ae916288febdcb4cfd9e48110756df402a551f730e61",
+        "capability_results.csv": "7511fee9d8b72ebdda848205a15aba0be5e9bf1b10b358a7a69efe906e61d20d",
+        "eligibility_by_model.json": "a7180519b6e0b5c8aa29803bf46c424a48a20256159b52e2a5c25a08f8b6adfc",
+        "conditional_security_results.csv": "9301e7c47c405e7720d37574792a46fb8cd43a1d6f8f435e6d08062c691e0722",
+        "raw_security_results.csv": "a52e370114d128a13c7527d8425562797c11770973c95e9f8d06948490c9da80",
+        "common_final_eligibility.json": "2c8f67068c8813e784708fedc75f11efe512d1be306a5f88d7cd76dd86cf6f0f",
+        "common_final_security_results.csv": "b8b294cb5cbb3f338564246e858dff1b5f904d88b5178da478c956e1386f256b",
+        "naive_policy_equivalence.csv": "09dd048d324ab37ab43e400422c2ae2f83d6e157876fabcd8ad0b3a2f4a398da",
+        "final_task_manifest.json": "b9cfe8e9d8c92de8dee2331282448c6c9cbc5494ec036aca55e58f77a36a4797",
+        "config.json": "b72663d7e993c4d0c9bd9cab4ce67cc6dc4916f4960efdff6d9a0e3781b56a5d",
+        "artifact_sha256.txt": "79dd8728b3f3c3ea34b4d0e4ab4c813ba9c1c3178b3b0d0259aa23ce6a6b49ce"
+      },
+      "existing_hash_manifest_verification": {
+        "manifest": "results/iteration6_frozen_final/artifact_sha256.txt",
+        "status": "PASS",
+        "entries": 40,
+        "mismatches": []
+      }
+    }
+  ]
+}

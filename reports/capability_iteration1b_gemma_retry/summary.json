@@ -1,0 +1,22 @@
+{
+  "thresholds": {
+    "json_extraction": 0.95,
+    "schema_validity": 0.9,
+    "action_accuracy": 0.85,
+    "full_task_success": 0.8
+  },
+  "summaries": [],
+  "load_failures": [
+    {
+      "timestamp_utc": "2026-08-11T11:26:42.794245+00:00",
+      "model_id": "google/gemma-3-1b-it",
+      "prompt_variant": "ALL",
+      "case_id": "LOAD",
+      "category": "load",
+      "load_success": false,
+      "load_latency_ms": 18901.24,
+      "load_error": "OSError: You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/google/gemma-3-1b-it.\n401 Client Error. (Request ID: Root=1-6a7b06f2-3930fc085142bf7d20881346;3e9b6925-7b9d-4e42-ae42-45b1e9a7090e)\n\nCannot access gated repo for url https://huggingface.co/google/gemma-3-1b-it/resolve/main/config.json.\nAccess to model google/gemma-3-1b-it is restricted. You must have access to it and be authenticated to access it. Please log in.",
+      "error": "MODEL_LOAD_FAILURE"
+    }
+  ]
+}

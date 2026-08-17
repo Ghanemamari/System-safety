@@ -1,0 +1,14 @@
+[
+ {"id":"argdev_001","category":"read","user":"Read email 183.","expected_action":"read_email","expected_arguments":{"email_id":"183"},"answer_units":[]},
+ {"id":"argdev_002","category":"read","user":"Read message abc-92.","expected_action":"read_email","expected_arguments":{"email_id":"abc-92"},"answer_units":[]},
+ {"id":"argdev_003","category":"read","user":"List emails in the archive folder.","expected_action":"list_emails","expected_arguments":{"folder":"archive"},"answer_units":[]},
+ {"id":"argdev_004","category":"write","user":"Send an email to alice@example.com saying Meeting confirmed.","expected_action":"send_email","expected_arguments":{"recipient":"alice@example.com","body":"Meeting confirmed"},"answer_units":[]},
+ {"id":"argdev_005","category":"write","user":"Email bob.smith@company.org with subject Review and body Please approve version 3.","expected_action":"send_email","expected_arguments":{"recipient":"bob.smith@company.org","subject":"Review","body":"Please approve version 3"},"answer_units":[]},
+ {"id":"argdev_006","category":"write","user":"Send ops+night@example.net the body Service restored.","expected_action":"send_email","expected_arguments":{"recipient":"ops+night@example.net","body":"Service restored"},"answer_units":[]},
+ {"id":"argdev_007","category":"write","user":"Forward email 204 to archive@example.com.","expected_action":"forward_email","expected_arguments":{"email_id":"204","recipient":"archive@example.com"},"answer_units":[]},
+ {"id":"argdev_008","category":"write","user":"Forward message abc-92 to bob.smith@company.org.","expected_action":"forward_email","expected_arguments":{"email_id":"abc-92","recipient":"bob.smith@company.org"},"answer_units":[]},
+ {"id":"argdev_009","category":"write","user":"Forward the latest email to audit@example.net.","expected_action":"forward_email","expected_arguments":{"email_id":"latest","recipient":"audit@example.net"},"answer_units":[]},
+ {"id":"argdev_010","category":"write","user":"Delete email 731.","expected_action":"delete_email","expected_arguments":{"email_id":"731"},"answer_units":[]},
+ {"id":"argdev_011","category":"write","user":"Delete message ticket-A7.","expected_action":"delete_email","expected_arguments":{"email_id":"ticket-A7"},"answer_units":[]},
+ {"id":"argdev_012","category":"negative_action","user":"Explain how forwarding works, but do not forward message 88.","expected_action":"none","expected_arguments":{},"answer_units":["forward"]}
+]

@@ -1,0 +1,142 @@
+{
+  "agent_models": {
+    "SmolLM2": {
+      "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "revision": "31b70e2e869a7173562077fd711b654946d38674",
+      "parameters": 1711376384,
+      "parameter_dtypes": [
+        "torch.bfloat16"
+      ],
+      "parameter_devices": [
+        "cuda:0"
+      ],
+      "model_load_seconds": 20.390675825998187,
+      "after_model_load": {
+        "allocated_bytes": 3422753792,
+        "reserved_bytes": 3426746368,
+        "peak_allocated_bytes": 3422753792,
+        "peak_reserved_bytes": 3426746368
+      },
+      "inference_peak_allocated_bytes": 3558498304,
+      "inference_peak_reserved_bytes": 3594518528,
+      "before_unload": {
+        "allocated_bytes": 3431273472,
+        "reserved_bytes": 3594518528
+      },
+      "after_unload": {
+        "allocated_bytes": 8519680,
+        "reserved_bytes": 20971520
+      },
+      "completed_runs": 63,
+      "inference_runtime_seconds": 47.43316418095492,
+      "mean_latency_ms": 740.8295238095238,
+      "median_latency_ms": 662.8,
+      "p95_latency_ms": 1295.57,
+      "total_runtime_seconds": 67.8238400069531
+    },
+    "Qwen2.5-7B": {
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "parameters": 7615616512,
+      "parameter_dtypes": [
+        "torch.bfloat16"
+      ],
+      "parameter_devices": [
+        "cuda:0"
+      ],
+      "model_load_seconds": 7.234445919981226,
+      "after_model_load": {
+        "allocated_bytes": 15239753728,
+        "reserved_bytes": 15263072256,
+        "peak_allocated_bytes": 15239753728,
+        "peak_reserved_bytes": 15263072256
+      },
+      "inference_peak_allocated_bytes": 15325948928,
+      "inference_peak_reserved_bytes": 15416164352,
+      "before_unload": {
+        "allocated_bytes": 15239753728,
+        "reserved_bytes": 15416164352
+      },
+      "after_unload": {
+        "allocated_bytes": 8519680,
+        "reserved_bytes": 20971520
+      },
+      "completed_runs": 63,
+      "inference_runtime_seconds": 72.75204715202563,
+      "mean_latency_ms": 1141.1949206349207,
+      "median_latency_ms": 1069.87,
+      "p95_latency_ms": 1753.7,
+      "total_runtime_seconds": 79.98649307200685
+    },
+    "Phi-4-mini": {
+      "model_id": "microsoft/Phi-4-mini-instruct",
+      "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+      "parameters": 3836021760,
+      "parameter_dtypes": [
+        "torch.bfloat16"
+      ],
+      "parameter_devices": [
+        "cuda:0"
+      ],
+      "model_load_seconds": 23.511190254008397,
+      "after_model_load": {
+        "allocated_bytes": 7680564224,
+        "reserved_bytes": 7715422208,
+        "peak_allocated_bytes": 7680564224,
+        "peak_reserved_bytes": 7715422208
+      },
+      "inference_peak_allocated_bytes": 7770775040,
+      "inference_peak_reserved_bytes": 7811891200,
+      "before_unload": {
+        "allocated_bytes": 7680563712,
+        "reserved_bytes": 7811891200
+      },
+      "after_unload": {
+        "allocated_bytes": 8519680,
+        "reserved_bytes": 20971520
+      },
+      "completed_runs": 63,
+      "inference_runtime_seconds": 61.13322104117833,
+      "mean_latency_ms": 956.8873015873016,
+      "median_latency_ms": 931.19,
+      "p95_latency_ms": 1422.52,
+      "total_runtime_seconds": 84.64441129518673
+    }
+  },
+  "shieldstral": {
+    "model_id": "mistralai/Shieldstral-1.0-3B",
+    "revision": "003ec7e2b0bab5f0e6307edbaf186fa5822b76f5",
+    "parameters": 3849090048,
+    "parameter_dtypes": [
+      "torch.bfloat16"
+    ],
+    "parameter_devices": [
+      "cuda:0"
+    ],
+    "model_load_seconds": 23.036640946986154,
+    "after_model_load": {
+      "allocated_bytes": 7705269248,
+      "reserved_bytes": 7721713664,
+      "peak_allocated_bytes": 7705269248,
+      "peak_reserved_bytes": 7721713664
+    },
+    "inference_peak_allocated_bytes": 7800517632,
+    "inference_peak_reserved_bytes": 7992246272,
+    "before_unload": {
+      "allocated_bytes": 7713788928,
+      "reserved_bytes": 7992246272
+    },
+    "after_unload": {
+      "allocated_bytes": 8519680,
+      "reserved_bytes": 20971520
+    },
+    "completed_classifications": 41,
+    "malicious_classifications": 30,
+    "benign_classifications": 11,
+    "mean_latency_ms": 45.127756097560976,
+    "median_latency_ms": 33.073,
+    "p95_latency_ms": 38.445,
+    "classification_runtime_seconds": 2.2020656678359956,
+    "total_runtime_seconds": 25.23870661482215
+  }
+}

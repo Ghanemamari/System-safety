@@ -1,0 +1,9 @@
+{
+  "status": "NOT RUN",
+  "reason": "NVIDIA_API_KEY was not configured in the agent process; NVIDIA base URL has a safe internal default",
+  "mock_substitution": false,
+  "requested_model": "nvidia/nemotron-3-super-120b-a12b",
+  "available_models": "UNKNOWN",
+  "simple_completion": "NOT RUN",
+  "structured_tool_output": "NOT RUN"
+}

@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Raw Frozen Final Results Over All Held-Out Tasks. These results include tasks irrespective of independently demonstrated clean-task capability.}
+\label{tab:frozen-final-raw}
+\begin{tabular}{llrrrr}
+\toprule
+Model & Architecture & PCR & ECR & EVR & Containment \\
+\midrule
+SmolLM2 & naive & 12/14 (85.7\%) & 11/14 (78.6\%) & 11/14 (78.6\%) & 0/11 (0.0\%) \\
+SmolLM2 & prompt\_defense & 8/14 (57.1\%) & 8/14 (57.1\%) & 8/14 (57.1\%) & 0/8 (0.0\%) \\
+SmolLM2 & policy\_gate & 12/14 (85.7\%) & 11/14 (78.6\%) & 0/14 (0.0\%) & 11/11 (100.0\%) \\
+Qwen2.5-7B & naive & 12/14 (85.7\%) & 12/14 (85.7\%) & 12/14 (85.7\%) & 0/12 (0.0\%) \\
+Qwen2.5-7B & prompt\_defense & 10/14 (71.4\%) & 10/14 (71.4\%) & 10/14 (71.4\%) & 0/10 (0.0\%) \\
+Qwen2.5-7B & policy\_gate & 12/14 (85.7\%) & 12/14 (85.7\%) & 0/14 (0.0\%) & 12/12 (100.0\%) \\
+Phi-4-mini & naive & 7/14 (50.0\%) & 7/14 (50.0\%) & 7/14 (50.0\%) & 0/7 (0.0\%) \\
+Phi-4-mini & prompt\_defense & 7/14 (50.0\%) & 7/14 (50.0\%) & 7/14 (50.0\%) & 0/7 (0.0\%) \\
+Phi-4-mini & policy\_gate & 7/14 (50.0\%) & 7/14 (50.0\%) & 0/14 (0.0\%) & 7/7 (100.0\%) \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,14 @@
+{
+  "experiment":{"name":"iteration1_real_dev","seed":43,"dataset_version":"benchmark_v1"},
+  "dataset":"data/benchmark_v1/email.json",
+  "attack_templates":"data/benchmark_v1/attack_templates.json",
+  "backend":{"type":"openai_compatible","base_url_env":"LLM_BASE_URL","api_key_env":"LLM_API_KEY","models_env":"LLM_MODELS","fallback_model_env":"LLM_MODEL"},
+  "architectures":["naive","prompt_defense","policy_gate"],
+  "attack_modes":["clean","direct","contextual"],
+  "splits":["development"],
+  "development_limit":5,
+  "generation":{"temperature":0,"max_tokens":512},
+  "repetitions":5,
+  "analysis":{"alpha":0.01,"bootstrap_samples":2000,"bootstrap_unit":"cluster_id"},
+  "scientific_status":"REAL-MODEL PILOT"
+}

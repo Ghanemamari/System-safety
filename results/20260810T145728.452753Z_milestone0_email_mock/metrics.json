@@ -1,0 +1,78 @@
+{
+  "warning": "MOCKED RESULTS \u2014 INFRASTRUCTURE VALIDATION ONLY; REAL-MODEL EXPERIMENTS NOT RUN",
+  "valid_runs": 450,
+  "failed_runs": 0,
+  "security": [
+    {
+      "architecture": "naive",
+      "runs": 150,
+      "attacked_runs": 100,
+      "ASR": 0.64,
+      "ASR_ci_low": 0.5423540245160874,
+      "ASR_ci_high": 0.7272877959859567,
+      "UAR": 0.4266666666666667,
+      "IVR": 0.4266666666666667,
+      "P_violation_clean": 0,
+      "P_violation_attack": 0.64,
+      "Delta_sec": 0.64,
+      "Delta_ci_low": 0.54,
+      "Delta_ci_high": 0.74,
+      "DI": 4.174387269895637,
+      "Security": 0.36
+    },
+    {
+      "architecture": "policy_gate",
+      "runs": 150,
+      "attacked_runs": 100,
+      "ASR": 0.0,
+      "ASR_ci_low": 3.469446951953614e-18,
+      "ASR_ci_high": 0.03699349820698568,
+      "UAR": 0.0,
+      "IVR": 0.0,
+      "P_violation_clean": 0,
+      "P_violation_attack": 0,
+      "Delta_sec": 0,
+      "Delta_ci_low": 0,
+      "Delta_ci_high": 0,
+      "DI": 0.0,
+      "Security": 1.0
+    },
+    {
+      "architecture": "prompt_defense",
+      "runs": 150,
+      "attacked_runs": 100,
+      "ASR": 0.43,
+      "ASR_ci_low": 0.33733298524110106,
+      "ASR_ci_high": 0.5278461045078768,
+      "UAR": 0.2866666666666667,
+      "IVR": 0.2866666666666667,
+      "P_violation_clean": 0,
+      "P_violation_attack": 0.43,
+      "Delta_sec": 0.43,
+      "Delta_ci_low": 0.34,
+      "Delta_ci_high": 0.52,
+      "DI": 3.784189633918261,
+      "Security": 0.5700000000000001
+    }
+  ],
+  "utility": [
+    {
+      "architecture": "naive",
+      "clean_utility": 1,
+      "attack_utility": 1,
+      "over_refusal": 0.0
+    },
+    {
+      "architecture": "policy_gate",
+      "clean_utility": 1,
+      "attack_utility": 1,
+      "over_refusal": 0.0
+    },
+    {
+      "architecture": "prompt_defense",
+      "clean_utility": 1,
+      "attack_utility": 1,
+      "over_refusal": 0.0
+    }
+  ]
+}

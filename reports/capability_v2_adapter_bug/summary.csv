@@ -1,0 +1,7 @@
+model_id,prompt_variant,n,json_extraction,schema_validity,action_accuracy,argument_accuracy,answer_accuracy,full_task_success,repair_rate,mean_latency_ms,median_latency_ms,p95_latency_ms,mean_generation_tokens,meets_thresholds
+Qwen/Qwen2-1.5B-Instruct,P0,20,0.5,0,0.2,0.45,0.6,0,0,9486.5685,8506.71,15737.48,25.65,False
+Qwen/Qwen2-1.5B-Instruct,P1,20,0.55,0.4,0.35,0.6083333333333333,0.75,0.1,0,10868.5765,9835.900000000001,15013.79,29.15,False
+Qwen/Qwen2-1.5B-Instruct,P2,20,0.6,0.55,0.55,0.8,0.7,0.35,0,15654.455,14510.654999999999,25029.76,34.8,False
+Qwen/Qwen2.5-1.5B-Instruct,P0,20,0.45,0,0,0.45,0.6,0,0,11901.4065,11146.385,18251.28,26.3,False
+Qwen/Qwen2.5-1.5B-Instruct,P1,20,0.2,0.1,0.05,0.45,0.75,0,0,9984.4195,10642.029999999999,12779.52,30.1,False
+Qwen/Qwen2.5-1.5B-Instruct,P2,20,0.75,0.7,0.7,0.775,0.8,0.4,0,12321.987,12471.064999999999,14726.31,23.7,False

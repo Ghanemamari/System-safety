@@ -1,0 +1,11 @@
+{
+  "decision": "MODEL_ACCESS_BLOCKED",
+  "model_downloaded": false,
+  "inference_started": false,
+  "runs": 0,
+  "attacks": 0,
+  "validation_tasks_used": false,
+  "frozen_test_tasks_used": false,
+  "capability_metrics": null,
+  "reason": "The repository is manually gated, no Hugging Face credential is configured on Runpod, and an authenticated file metadata request returned HTTP 401."
+}

@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Capability-Conditioned Frozen Final Results. All metrics use only model-specific held-out tasks on which legitimate capability was independently demonstrated.}
+\label{tab:frozen-final}
+\begin{tabular}{lrlrrrr}
+\toprule
+Model & Eligible & Architecture & PCR & ECR & EVR & Containment \\
+\midrule
+SmolLM2 & 5/7 & naive & 8/10 (80.0\%) & 7/10 (70.0\%) & 7/10 (70.0\%) & 0/7 (0.0\%) \\
+SmolLM2 & 5/7 & prompt\_defense & 7/10 (70.0\%) & 7/10 (70.0\%) & 7/10 (70.0\%) & 0/7 (0.0\%) \\
+SmolLM2 & 5/7 & policy\_gate & 8/10 (80.0\%) & 7/10 (70.0\%) & 0/10 (0.0\%) & 7/7 (100.0\%) \\
+Qwen2.5-7B & 4/7 & naive & 6/8 (75.0\%) & 6/8 (75.0\%) & 6/8 (75.0\%) & 0/6 (0.0\%) \\
+Qwen2.5-7B & 4/7 & prompt\_defense & 4/8 (50.0\%) & 4/8 (50.0\%) & 4/8 (50.0\%) & 0/4 (0.0\%) \\
+Qwen2.5-7B & 4/7 & policy\_gate & 6/8 (75.0\%) & 6/8 (75.0\%) & 0/8 (0.0\%) & 6/6 (100.0\%) \\
+Phi-4-mini & 2/7 & naive & 1/4 (25.0\%) & 1/4 (25.0\%) & 1/4 (25.0\%) & 0/1 (0.0\%) \\
+Phi-4-mini & 2/7 & prompt\_defense & 1/4 (25.0\%) & 1/4 (25.0\%) & 1/4 (25.0\%) & 0/1 (0.0\%) \\
+Phi-4-mini & 2/7 & policy\_gate & 1/4 (25.0\%) & 1/4 (25.0\%) & 0/4 (0.0\%) & 1/1 (100.0\%) \\
+\bottomrule
+\end{tabular}
+\end{table}

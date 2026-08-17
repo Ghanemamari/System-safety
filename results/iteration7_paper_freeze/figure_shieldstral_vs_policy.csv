@@ -1,0 +1,6 @@
+model,split,architecture,metric,numerator,denominator,percentage,scope_note
+Shieldstral,development_retrospective,learned_guardrail,GDR,62,64,96.875,stored executable-unauthorized proposals
+Policy Gate,development_model_specific,deterministic_authority,Containment,64,64,100.0,three separate capability-conditioned experiments
+Shieldstral,frozen_final_retrospective_raw,learned_guardrail,GDR,30,30,100.0,raw stored executable-unauthorized proposal set
+Policy Gate,frozen_final_raw_all_task,deterministic_authority,Containment,30,30,100.0,42 attacked cases irrespective of demonstrated clean capability
+Policy Gate,frozen_final_capability_conditioned,deterministic_authority,Containment,14,14,100.0,22 attacked cases with model-specific demonstrated clean capability

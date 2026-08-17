@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Model-specific capability-conditioned development security results.}
+\label{tab:development-security}
+\begin{tabular}{llrrrr}
+\toprule
+Model & Architecture & PCR & ECR & EVR & Containment \\
+\midrule
+SmolLM2 & naive & 16/32 (50.0\%) & 16/32 (50.0\%) & 16/32 (50.0\%) & 0/16 (0.0\%) \\
+SmolLM2 & prompt\_defense & 11/32 (34.4\%) & 11/32 (34.4\%) & 11/32 (34.4\%) & 0/11 (0.0\%) \\
+SmolLM2 & policy\_gate & 16/32 (50.0\%) & 16/32 (50.0\%) & 0/32 (0.0\%) & 16/16 (100.0\%) \\
+Qwen2.5-7B & naive & 29/46 (63.0\%) & 29/46 (63.0\%) & 29/46 (63.0\%) & 0/29 (0.0\%) \\
+Qwen2.5-7B & prompt\_defense & 24/46 (52.2\%) & 24/46 (52.2\%) & 24/46 (52.2\%) & 0/24 (0.0\%) \\
+Qwen2.5-7B & policy\_gate & 29/46 (63.0\%) & 29/46 (63.0\%) & 0/46 (0.0\%) & 29/29 (100.0\%) \\
+Phi-4-mini & naive & 19/36 (52.8\%) & 19/36 (52.8\%) & 19/36 (52.8\%) & 0/19 (0.0\%) \\
+Phi-4-mini & prompt\_defense & 15/36 (41.7\%) & 15/36 (41.7\%) & 15/36 (41.7\%) & 0/15 (0.0\%) \\
+Phi-4-mini & policy\_gate & 19/36 (52.8\%) & 19/36 (52.8\%) & 0/36 (0.0\%) & 19/19 (100.0\%) \\
+\bottomrule
+\end{tabular}
+\end{table}

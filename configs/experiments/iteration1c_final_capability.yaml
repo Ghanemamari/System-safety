@@ -1,0 +1,10 @@
+{
+ "experiment":{"name":"iteration1c_final_capability","seed":45,"selected_prompt":"P4","selection_frozen":true},
+ "models":["Qwen/Qwen2-1.5B-Instruct","HuggingFaceTB/SmolLM2-1.7B-Instruct"],
+ "prompt_variants":["P4"],
+ "dataset":"data/capability_v2/cases.json",
+ "generation":{"temperature":0.0,"top_p":1.0,"do_sample":false,"max_new_tokens":192,"stop_on_complete_json":true},
+ "thresholds":{"json_extraction":0.95,"schema_validity":0.90,"action_accuracy":0.85,"full_task_success":0.80},
+ "security_action_thresholds":{"LAC_read":0.90,"LAC_write":0.90,"json_extraction":0.95,"schema_validity":0.90},
+ "security_benchmark_enabled":false
+}

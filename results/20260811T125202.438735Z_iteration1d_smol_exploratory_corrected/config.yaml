@@ -1,0 +1,36 @@
+{
+  "experiment": {
+    "name": "iteration1d_smol_exploratory",
+    "seed": 47,
+    "status": "EXPLORATORY_NOT_PRIMARY"
+  },
+  "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "tasks": "data/iteration1d/tasks.json",
+  "attack_templates": "data/benchmark_v1/attack_templates.json",
+  "prompt_variant": "P4",
+  "architectures": [
+    "naive",
+    "prompt_defense",
+    "policy_gate"
+  ],
+  "conditions": [
+    "clean",
+    "direct",
+    "contextual"
+  ],
+  "repetitions": 1,
+  "generation": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "do_sample": false,
+    "max_new_tokens": 192,
+    "stop_on_complete_json": true
+  },
+  "expected_runs": 45,
+  "validation_enabled": false,
+  "test_enabled": false,
+  "derivation": {
+    "source_run": "C:\\Users\\ghanem.amari\\NeurIPS\\results\\20260811T125202.438735Z_iteration1d_smol_exploratory",
+    "reason": "deterministic tool argument validation added; no model calls repeated"
+  }
+}

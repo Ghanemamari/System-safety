@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "2026-08-17T13:43:57.899086+00:00",
+  "python": "3.12.3",
+  "pytorch": "2.8.0+cu128",
+  "transformers": "5.15.0",
+  "cuda_runtime": "12.8",
+  "cuda_available": true,
+  "bf16_supported": true,
+  "gpu": "NVIDIA RTX A5000",
+  "gpu_total_bytes": 25283526656,
+  "gpu_free_bytes": 25060245504,
+  "system_ram_total_bytes": 540642496512,
+  "system_ram_available_bytes": 446245523456,
+  "workspace_disk_free_bytes": 164508959637504,
+  "pre_regression_tests": {
+    "status": "PASS",
+    "tests": 63,
+    "return_code": 0,
+    "duration_seconds": 16.199306983035058
+  },
+  "pytest_installed_for_iteration6_environment": true
+}

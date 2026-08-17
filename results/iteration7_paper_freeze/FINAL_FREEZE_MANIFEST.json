@@ -1,0 +1,116 @@
+{
+  "correction_type": "scope-labeling only",
+  "decision": "PAPER_RESULTS_FROZEN",
+  "declarations": {
+    "no_methodological_changes": true,
+    "no_new_experiments": true,
+    "no_new_inference": true,
+    "no_numerical_result_changes": true,
+    "no_source_experiment_changes": true
+  },
+  "edited_paper_artifacts": [
+    "ABSTRACT_NUMBERS.md",
+    "AUDIT_DISCREPANCIES.md",
+    "FINAL_RESULTS_AUDIT.md",
+    "FINAL_TEST_PARAGRAPH.tex",
+    "MAIN_RESULT_PARAGRAPH.tex",
+    "PAPER_CLAIMS.md",
+    "PAPER_KEY_FINDINGS.md",
+    "PAPER_LIMITATIONS.md",
+    "SCOPE_CONSISTENCY_AUDIT.md",
+    "SHIELDSTRAL_RESULT_PARAGRAPH.tex",
+    "figure_shieldstral_vs_policy.csv",
+    "table_external_enforcement.csv",
+    "table_external_enforcement.tex",
+    "table_frozen_final.csv",
+    "table_frozen_final.tex",
+    "table_frozen_final_raw.csv",
+    "table_frozen_final_raw.tex"
+  ],
+  "environment": {
+    "platform": "Linux-6.8.0-134-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3"
+  },
+  "generated_artifact_hashes_before_manifest": {
+    "ABSTRACT_NUMBERS.md": "99a08a1d7acc7237206aadba30cc0154c990920fcc180c98ad630fe7f449f919",
+    "AUDIT_DISCREPANCIES.md": "6147c95b76954524865b06689c1911919b931386b5a8b859035721137ec113ca",
+    "CAPABILITY_RESULT_PARAGRAPH.tex": "74cc04b37f2b858de40dbbba0e0b9214e49b07f9a63a3ddc016c418ea2c100bf",
+    "FINAL_RESULTS_AUDIT.md": "6e41078ab98a9ccaf4d77039ceacf8493e5fa271d60f3beb71ad847adfdd184a",
+    "FINAL_TEST_PARAGRAPH.tex": "d37f820df8f428a1282e8f39c32b5c2cce0fbc245a88f8693b46ec49a490a0a0",
+    "MAIN_RESULT_PARAGRAPH.tex": "ff9d99d50c8f42102b07686e6f9c2da76c6e442e9ace7f8bd476bd1f6a66d18e",
+    "MASTER_RESULTS.csv": "28b927382a2127d755835705dfb7671afb9aa29405d45e3c6254d9204d0ace1d",
+    "MASTER_RESULTS.md": "5aba1a0552867d81bc662580dca059ac5d95c5cc3bbabe6b8cbedff719d1e556",
+    "PAPER_CLAIMS.md": "d976a54e22f156b77019f1b0c54f4554417b6bd0bdd3d0c9d83d8fa79d8869fa",
+    "PAPER_KEY_FINDINGS.md": "6ce6a02ae076e7cc3191c201c6e123b36f92e9e81714659d8813f62dee0c21b1",
+    "PAPER_LIMITATIONS.md": "3dc19991acca6d474b1de4b202021850312798d955bf459e7624c2a338764a70",
+    "SCOPE_CONSISTENCY_AUDIT.md": "d92a99bdc7a16b34a37069b1857edafa5921fc07883c2b9bcd7472a95d155c82",
+    "SHIELDSTRAL_RESULT_PARAGRAPH.tex": "f85aa1282bf7a5b54847101e970b1d07ada05d151f7378caea279c4c17d2a1a8",
+    "figure_development_common.csv": "4f0d91eb7dd00df6896be77db771b7ad516b4b72e3b1270fdc8ade95ec5b3686",
+    "figure_final_security.csv": "57054a0d28a4223b743c12cf54e3ceea313598f9dc4953010bd3801ccd608088",
+    "figure_model_specific_security.csv": "53a36cb8d2d5c33ef1a3aa1ab733fe7340644a4cfcb5f82e2fc6ed56df19095f",
+    "figure_shieldstral_vs_policy.csv": "6208a2103337b75b9c66e0d765c5319b190f0f57c48a9da2ed7ca5fba3804771",
+    "source_artifact_sha256.txt": "99e0bff64ecc70ee0b86e10d64f63556d8fd4a4948add12878b902a8ab9999c5",
+    "source_manifest.json": "a53168b601c10cac5cf92f2635f496b4e87414fd55847f057056c81f4119a329",
+    "table_capability.csv": "7f4be722657ff624c5e3c34d914da66c7809e6ad1ce2c7b7b61622083aaa73fe",
+    "table_capability.tex": "dbaa8012f2888dd6f64100f26d5361a2a33473f3b2b032f9bb0f4db48a598540",
+    "table_common_development.csv": "3ea4ce8664ff56e9d2565a2534c56d249acc47b47e86c66ffcb40b90080d6bbe",
+    "table_common_development.tex": "11f1701fc2429f763c84192abe5b7153b8446d4f2ddc61d392f484024a8d3e60",
+    "table_development_security.csv": "0c0036303133f2121dd937f51f2ddb5ded3ecf98348e3a45551d5f86d03c4be0",
+    "table_development_security.tex": "91f5f71fc3db07979fbe72b9d0631fab4a33f085b0ba7191c7cae59946d01b8e",
+    "table_external_enforcement.csv": "4a75351591bca9307bd9db93ae5e2d16d94f8636effc741e28d66e826e5e961e",
+    "table_external_enforcement.tex": "cea6254917fc1143d66a3eb22aecd1d296dbe28b363036faf29c1115f3b80ea2",
+    "table_frozen_final.csv": "94355dbc9e4ad80eb684c75c537c7834cb6a75e55863716e1789bfd060d79437",
+    "table_frozen_final.tex": "4f584c5b672ae935d8f9c9831d55ac749a6a5d719aa94947469ad57781963b13",
+    "table_frozen_final_raw.csv": "70326398c3e96360f3ad272009ac731314aef9d3ebda8be600eb68df9a149744",
+    "table_frozen_final_raw.tex": "366616df69d762db7e9270bbd50f2216fd4e96c5ace7a297c897e9d5ab1e0d9d",
+    "table_shieldstral_development.csv": "da03d083efcb0be7b4f5d2c4cdadffd1b8a9e6c6b9f26c40a6a9ce20a662b5b1",
+    "table_shieldstral_development.tex": "4d4c5296d481d4d2d0e471e1a80904dd146c51e414f7a27c92938bbb18205313"
+  },
+  "iteration": "7B",
+  "new_discrepancies": [],
+  "previous_freeze": {
+    "decision": "AUDIT_REQUIRES_REVIEW",
+    "hash_inventory_sha256": "afe211a201b1b683738061b92c3ebe590f43e34c90971c83c720e3e4c112862f",
+    "manifest_sha256": "c5d424a49b61c69830c7ed75465c2ff625efc4983ee859784dd3fd4cca200399",
+    "verification": "PASS"
+  },
+  "reviewed_and_unchanged_artifacts": [
+    "MASTER_RESULTS.md",
+    "figure_final_security.csv"
+  ],
+  "scope_consistency_audit": "PASS",
+  "scope_correction": {
+    "naive_policy_equivalence": {
+      "identical_messages": "63/63",
+      "identical_parsed_proposals": "63/63",
+      "identical_raw_outputs": "63/63"
+    },
+    "naive_policy_equivalence_scope": "entire final experiment",
+    "primary_capability_conditioned": {
+      "attacked_cases": 22,
+      "contained": 14,
+      "containment": "14/14",
+      "evr": "0/22",
+      "executable_unauthorized_proposals": 14,
+      "executed_violations_policy_gate": 0
+    },
+    "secondary_raw_all_task": {
+      "attacked_cases": 42,
+      "contained": 30,
+      "containment": "30/30",
+      "evr": "0/42",
+      "executable_unauthorized_proposals": 30,
+      "executed_violations_policy_gate": 0
+    },
+    "shieldstral_final_scope": "retrospective raw stored malicious proposal set"
+  },
+  "source_integrity": {
+    "prior_primary_artifact_hashes_verified": true,
+    "source_directory_count": 10,
+    "source_file_count": 177,
+    "tree_sha256_after": "8504674353b7f5a2a38580800b892ba17658732522fac9d21b571545bebe6ed1",
+    "tree_sha256_before": "8504674353b7f5a2a38580800b892ba17658732522fac9d21b571545bebe6ed1",
+    "unchanged": true
+  },
+  "timestamp_utc": "2026-08-17T14:29:30.075672+00:00"
+}

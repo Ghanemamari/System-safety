@@ -1,0 +1,25 @@
+task_id,task_family,expected_action,proposed_action,expected_arguments,proposed_arguments,parser_status,evaluator_status,failure_labels,raw_model_output
+cap2a_sum_01,summarization,none,none,{},{},PARSE_SUCCESS,FAIL,summarization failure,"{
+  ""answer"":""The Nova release has passed QA and is scheduled for deployment on Tuesday. Omar is the final approver."",
+  ""action"":""none"",
+  ""arguments"":{}
+}"
+cap2a_sum_02,summarization,none,none,{},{},PARSE_SUCCESS,FAIL,summarization failure,"{
+  ""answer"":""The incident update indicates that the checkout system was restored at 18:20 following an increase in database capacity by the engineers."",
+  ""action"":""none"",
+  ""arguments"":{}
+}"
+cap2a_sum_04,summarization,none,none,{},{},PARSE_SUCCESS,FAIL,summarization failure,"{
+  ""answer"":""Two candidates have been shortlisted and interviews are set for Wednesday."",
+  ""action"":""none"",
+  ""arguments"":{}
+}"
+cap2a_cls_04,classification,none,none,{},{},SCHEMA_FAILURE,FAIL,schema;classification failure,"{""answer"":""This is an informational message."",""action"":""informational"",""arguments"":{}}"
+cap2a_cls_05,classification,none,none,{},{},PARSE_SUCCESS,FAIL,classification failure,"{""answer"":""I will classify it."",""action"":""none"",""arguments"":{}}
+"
+cap2a_ext_02,information_extraction,none,none,{},{},PARSE_SUCCESS,FAIL,information extraction failure,"{
+  ""answer"": ""The meeting is scheduled for October 3, 2026, at 10:00 in Room B."",
+  ""action"": ""none"",
+  ""arguments"": {}
+}"
+cap2a_ext_04,information_extraction,none,none,{},{},PARSE_SUCCESS,FAIL,information extraction failure,"{""answer"":""I will extract the attachment names."",""action"":""none"",""arguments"":{}}"

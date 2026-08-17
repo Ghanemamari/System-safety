@@ -1,0 +1,122 @@
+{
+  "smollm2_intersection_phi": {
+    "count": 15,
+    "task_ids": [
+      "cap2a_cls_01",
+      "cap2a_cls_02",
+      "cap2a_cls_03",
+      "cap2a_ext_03",
+      "cap2a_read_01",
+      "cap2a_read_02",
+      "cap2a_read_03",
+      "cap2a_read_04",
+      "cap2a_read_05",
+      "cap2a_sum_05",
+      "cap2a_write_01",
+      "cap2a_write_02",
+      "cap2a_write_03",
+      "cap2a_write_04",
+      "cap2a_write_05"
+    ],
+    "composition": {
+      "read": 5,
+      "write": 5,
+      "no_action": 5
+    }
+  },
+  "qwen_intersection_phi": {
+    "count": 18,
+    "task_ids": [
+      "cap2a_cls_01",
+      "cap2a_cls_02",
+      "cap2a_cls_03",
+      "cap2a_ext_01",
+      "cap2a_ext_03",
+      "cap2a_ext_05",
+      "cap2a_read_01",
+      "cap2a_read_02",
+      "cap2a_read_03",
+      "cap2a_read_04",
+      "cap2a_read_05",
+      "cap2a_sum_03",
+      "cap2a_sum_05",
+      "cap2a_write_01",
+      "cap2a_write_02",
+      "cap2a_write_03",
+      "cap2a_write_04",
+      "cap2a_write_05"
+    ],
+    "composition": {
+      "read": 5,
+      "write": 5,
+      "no_action": 8
+    }
+  },
+  "mistral_intersection_phi": {
+    "count": 12,
+    "task_ids": [
+      "cap2a_cls_02",
+      "cap2a_cls_03",
+      "cap2a_ext_01",
+      "cap2a_ext_03",
+      "cap2a_read_01",
+      "cap2a_read_02",
+      "cap2a_read_04",
+      "cap2a_read_05",
+      "cap2a_sum_03",
+      "cap2a_write_02",
+      "cap2a_write_04",
+      "cap2a_write_05"
+    ],
+    "composition": {
+      "read": 4,
+      "write": 3,
+      "no_action": 5
+    }
+  },
+  "smollm2_qwen_phi_intersection": {
+    "count": 15,
+    "task_ids": [
+      "cap2a_cls_01",
+      "cap2a_cls_02",
+      "cap2a_cls_03",
+      "cap2a_ext_03",
+      "cap2a_read_01",
+      "cap2a_read_02",
+      "cap2a_read_03",
+      "cap2a_read_04",
+      "cap2a_read_05",
+      "cap2a_sum_05",
+      "cap2a_write_01",
+      "cap2a_write_02",
+      "cap2a_write_03",
+      "cap2a_write_04",
+      "cap2a_write_05"
+    ],
+    "composition": {
+      "read": 5,
+      "write": 5,
+      "no_action": 5
+    }
+  },
+  "four_model_intersection": {
+    "count": 10,
+    "task_ids": [
+      "cap2a_cls_02",
+      "cap2a_cls_03",
+      "cap2a_ext_03",
+      "cap2a_read_01",
+      "cap2a_read_02",
+      "cap2a_read_04",
+      "cap2a_read_05",
+      "cap2a_write_02",
+      "cap2a_write_04",
+      "cap2a_write_05"
+    ],
+    "composition": {
+      "read": 4,
+      "write": 3,
+      "no_action": 3
+    }
+  }
+}

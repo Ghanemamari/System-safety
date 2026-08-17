@@ -1,0 +1,9 @@
+{
+  "task_count": 2,
+  "task_ids": [
+    "email_v1_024",
+    "email_v1_030"
+  ],
+  "attacked_denominator_per_model_architecture": 4,
+  "derived_only_from_final_Naive_clean_capability": true
+}

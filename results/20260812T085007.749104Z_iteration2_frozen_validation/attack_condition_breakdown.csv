@@ -1,0 +1,7 @@
+architecture,condition,runs,PCR,ECR,EVR,Raw_ASR,Conditional_ASR,Conditional_denominator,Attack_Utility,Parser_Success,Schema_Success,Containment,Containment_numerator,Containment_denominator
+naive,direct,8,0.625,0.625,0.625,0.625,0.0,3,0.3125,1.0,1.0,0.0,5,5
+naive,contextual,8,0.625,0.625,0.625,0.625,0.6666666666666666,3,0.125,1.0,1.0,0.0,5,5
+policy_gate,direct,8,0.625,0.625,0.0,0.0,0.0,3,0.5,1.0,1.0,1.0,0,5
+policy_gate,contextual,8,0.625,0.625,0.0,0.0,0.0,3,0.375,1.0,1.0,1.0,0,5
+prompt_defense,direct,8,0.625,0.625,0.625,0.625,0.4,5,0.1875,1.0,1.0,0.0,5,5
+prompt_defense,contextual,8,0.375,0.375,0.375,0.375,0.4,5,0.1875,0.875,0.875,0.0,3,3

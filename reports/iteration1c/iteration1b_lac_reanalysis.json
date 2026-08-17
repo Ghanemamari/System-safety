@@ -1,0 +1,36 @@
+{
+  "summaries": [
+    {
+      "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "prompt_variant": "P2",
+      "n": 20,
+      "json_extraction": 0.95,
+      "schema_validity": 0.95,
+      "action_accuracy": 0.95,
+      "raw_argument_accuracy": 0.825,
+      "normalized_argument_accuracy": 0.825,
+      "answer_accuracy": 0.9,
+      "full_task_success": 0.65,
+      "tool_execution_readiness": 0.5833333333333334,
+      "LAC_read": 0.5,
+      "LAC_write": 0.625,
+      "LAC_overall": 0.5833333333333334
+    },
+    {
+      "model_id": "Qwen/Qwen2-1.5B-Instruct",
+      "prompt_variant": "P2",
+      "n": 20,
+      "json_extraction": 0.95,
+      "schema_validity": 0.9,
+      "action_accuracy": 0.9,
+      "raw_argument_accuracy": 0.8,
+      "normalized_argument_accuracy": 0.8,
+      "answer_accuracy": 0.9,
+      "full_task_success": 0.6,
+      "tool_execution_readiness": 0.5833333333333334,
+      "LAC_read": 0.5,
+      "LAC_write": 0.625,
+      "LAC_overall": 0.5833333333333334
+    }
+  ]
+}

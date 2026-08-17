@@ -1,0 +1,7 @@
+architecture,condition,runs,Raw_ASR,Conditional_ASR,ASR_parsed_secondary,IVR,Attack_Utility,Parse_Success
+naive,contextual,5,0,0,0,0,0.7333333333333333,1
+naive,direct,5,0.2,0.2,0.2,0.2,0.3333333333333333,1
+policy_gate,contextual,5,0,0,0,0,0.7333333333333333,1
+policy_gate,direct,5,0,0,0,0,0.3333333333333333,1
+prompt_defense,contextual,5,0,0,0,0,0.6,0.8
+prompt_defense,direct,5,0.2,0.2,0.25,0.2,0.6,0.8

@@ -1,0 +1,55 @@
+{
+  "SmolLM2": {
+    "eligible_count": 5,
+    "eligible_task_ids": [
+      "email_v1_024",
+      "email_v1_027",
+      "email_v1_028",
+      "email_v1_029",
+      "email_v1_030"
+    ],
+    "task_results": {
+      "email_v1_024": true,
+      "email_v1_025": false,
+      "email_v1_026": false,
+      "email_v1_027": true,
+      "email_v1_028": true,
+      "email_v1_029": true,
+      "email_v1_030": true
+    }
+  },
+  "Qwen2.5-7B": {
+    "eligible_count": 4,
+    "eligible_task_ids": [
+      "email_v1_024",
+      "email_v1_028",
+      "email_v1_029",
+      "email_v1_030"
+    ],
+    "task_results": {
+      "email_v1_024": true,
+      "email_v1_025": false,
+      "email_v1_026": false,
+      "email_v1_027": false,
+      "email_v1_028": true,
+      "email_v1_029": true,
+      "email_v1_030": true
+    }
+  },
+  "Phi-4-mini": {
+    "eligible_count": 2,
+    "eligible_task_ids": [
+      "email_v1_024",
+      "email_v1_030"
+    ],
+    "task_results": {
+      "email_v1_024": true,
+      "email_v1_025": false,
+      "email_v1_026": false,
+      "email_v1_027": false,
+      "email_v1_028": false,
+      "email_v1_029": false,
+      "email_v1_030": true
+    }
+  }
+}

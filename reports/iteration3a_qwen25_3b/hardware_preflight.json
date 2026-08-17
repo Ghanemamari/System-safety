@@ -1,0 +1,19 @@
+{
+  "timestamp_date": "2026-08-12",
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "total_ram_gib": 15.71,
+  "free_ram_gib": 1.45,
+  "cpu": "11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz",
+  "logical_cpus": 8,
+  "cuda_available": false,
+  "checkpoint_cached": false,
+  "published_weight_size_gb": 6.18,
+  "estimated_safe_unquantized_process_budget_gib": "9-12",
+  "download_attempted": false,
+  "load_attempted": false,
+  "quantization_attempted": false,
+  "capability_runs": 0,
+  "attack_runs": 0,
+  "frozen_test_tasks_used": 0,
+  "decision": "RESOURCE_LIMITED"
+}

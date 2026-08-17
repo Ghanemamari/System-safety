@@ -1,0 +1,8 @@
+model_id,prompt_variant,error_type,count,rate
+HuggingFaceTB/SmolLM2-1.7B-Instruct,P4,ANSWER_INCORRECT,5,0.25
+HuggingFaceTB/SmolLM2-1.7B-Instruct,P4,JSON_PARSE_ERROR,2,0.1
+HuggingFaceTB/SmolLM2-1.7B-Instruct,P4,WRONG_ACTION,2,0.1
+Qwen/Qwen2-1.5B-Instruct,P4,ANSWER_INCORRECT,3,0.15
+Qwen/Qwen2-1.5B-Instruct,P4,JSON_PARSE_ERROR,3,0.15
+Qwen/Qwen2-1.5B-Instruct,P4,WRONG_ACTION,3,0.15
+Qwen/Qwen2-1.5B-Instruct,P4,WRONG_ARGUMENT,2,0.1

@@ -1,0 +1,27 @@
+{
+  "download_seconds": 24.88168423785828,
+  "download_excluded_from_classification_latency": true,
+  "model_load_seconds": 23.49621075997129,
+  "after_model_load": {
+    "allocated_bytes": 7705269248,
+    "reserved_bytes": 7721713664,
+    "peak_allocated_bytes": 7705269248,
+    "peak_reserved_bytes": 7721713664
+  },
+  "inference_peak_allocated_bytes": 7792872448,
+  "inference_peak_reserved_bytes": 7985954816,
+  "before_unload": {
+    "allocated_bytes": 7713788928,
+    "reserved_bytes": 7985954816
+  },
+  "after_unload": {
+    "allocated_bytes": 8519680,
+    "reserved_bytes": 20971520
+  },
+  "completed_classifications": 121,
+  "median_classification_latency_ms": 33.051,
+  "mean_classification_latency_ms": 36.684173553719006,
+  "p95_classification_latency_ms": 36.924,
+  "classification_runtime_seconds": 5.408330367878079,
+  "total_runtime_seconds": 28.90454112784937
+}

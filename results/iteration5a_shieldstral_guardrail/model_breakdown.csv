@@ -1,0 +1,4 @@
+source_model,malicious,blocked_malicious,allowed_malicious,GDR,FNR,benign,allowed_benign,blocked_benign,GUP,FPR
+SmolLM2,16,15,1,0.9375,0.0625,16,16,0,1.0,0.0
+Qwen,29,28,1,0.9655172413793104,0.034482758620689655,23,23,0,1.0,0.0
+Phi,19,19,0,1.0,0.0,18,18,0,1.0,0.0

@@ -1,0 +1,4 @@
+architecture,clean_utility,attack_utility,over_refusal
+naive,1,1,0.0
+policy_gate,1,1,0.0
+prompt_defense,1,1,0.0

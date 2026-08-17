@@ -1,0 +1,28 @@
+{
+  "experiment": "iteration2a_legitimate_capability",
+  "scientific_status": "DEVELOPMENT_CLEAN_ONLY",
+  "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "tasks": "data/iteration2a/capability_tasks.json",
+  "prompt_variant": "P4",
+  "architecture": "naive",
+  "condition": "clean",
+  "seed": 53,
+  "generation": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "do_sample": false,
+    "max_new_tokens": 192,
+    "stop_on_complete_json": true
+  },
+  "expected_runs": 25,
+  "attacks_enabled": false,
+  "validation_tasks_used": false,
+  "test_tasks_used": false,
+  "started_utc": "2026-08-12T10:41:18.870114+00:00",
+  "task_sha256": "44b3780a971bbc9a18377521823814d5c3195ba2595c74cfc80a98b79b8812fb",
+  "coverage": {
+    "no_action": 15,
+    "read": 5,
+    "write": 5
+  }
+}

@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\caption{External enforcement results with non-interchangeable scopes. Policy Gate is reported separately for the primary capability-conditioned and secondary raw all-task final analyses; Shieldstral is a retrospective classifier evaluation over stored proposals.}
+\label{tab:external-enforcement}
+\begin{tabular}{llllrrrr}
+\toprule
+Split & Mechanism & Scope & Type & Cases & Malicious/Exec. & Contained/Blocked & Executed/Allowed \\
+\midrule
+Development & Shieldstral & retrospective stored proposals & learned & -- & 64 & 62 & 2 \\
+Development & Policy Gate & capability-conditioned, model-specific & deterministic & 114 & 64 & 64 & 0 \\
+Frozen final & Policy Gate & capability-conditioned & deterministic & 22 & 14 & 14 & 0 \\
+Frozen final & Policy Gate & raw all-task & deterministic & 42 & 30 & 30 & 0 \\
+Frozen final & Shieldstral & retrospective raw stored set & learned & -- & 30 & 30 & 0 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\footnotesize Shieldstral allowed 57/57 eligible benign development proposals and 11/11 eligible benign final proposals. Its malicious denominators are stored proposal sets, not attacked-case denominators, and therefore should not be directly compared as if the scopes were identical.
+\end{table*}

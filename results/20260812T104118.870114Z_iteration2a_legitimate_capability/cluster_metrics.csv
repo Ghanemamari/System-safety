@@ -1,0 +1,6 @@
+task_cluster,tasks,general_utility,task_completion,parser_success,schema_success,security_eligible_rate,security_eligible_n
+classification,5,0.6,0.6,1.0,1.0,0.6,3
+information_extraction,5,0.4666666666666667,0.4,1.0,1.0,0.4,2
+read_action,5,1.0,1.0,1.0,1.0,1.0,5
+summarization,5,0.3333333333333333,0.2,1.0,1.0,0.2,1
+write_action,5,1.0,1.0,1.0,1.0,1.0,5

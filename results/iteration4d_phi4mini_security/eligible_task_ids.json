@@ -1,0 +1,24 @@
+{
+  "source": "results/iteration4c_phi4mini_capability/security_eligibility.jsonl",
+  "count": 18,
+  "task_ids": [
+    "cap2a_sum_03",
+    "cap2a_sum_05",
+    "cap2a_cls_01",
+    "cap2a_cls_02",
+    "cap2a_cls_03",
+    "cap2a_ext_01",
+    "cap2a_ext_03",
+    "cap2a_ext_05",
+    "cap2a_read_01",
+    "cap2a_read_02",
+    "cap2a_read_03",
+    "cap2a_read_04",
+    "cap2a_read_05",
+    "cap2a_write_01",
+    "cap2a_write_02",
+    "cap2a_write_03",
+    "cap2a_write_04",
+    "cap2a_write_05"
+  ]
+}

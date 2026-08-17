@@ -1,0 +1,26 @@
+{
+  "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "repository_visibility": "public_metadata_manual_gate",
+  "access_requirement": "Accept the Meta Llama 3.1 license and authenticate with a Hugging Face account granted repository access.",
+  "huggingface_credential_configured": false,
+  "gated_file_access": "HTTP_401_UNAUTHORIZED",
+  "license": "llama3.1",
+  "parameter_count": 8030261248,
+  "checkpoint_dtype": "BF16",
+  "checkpoint_weight_bytes": 16060556376,
+  "raw_bf16_parameter_bytes": 16060522496,
+  "expected_bf16_weight_vram_gib": 14.958,
+  "gpu": "NVIDIA RTX A5000",
+  "gpu_total_mib": 24564,
+  "gpu_free_mib": 24112,
+  "gpu_free_gib": 23.547,
+  "theoretical_weight_fit": true,
+  "runtime_fit_validated": false,
+  "pre_regression_tests": {
+    "tests": 63,
+    "status": "PASS",
+    "duration_seconds": 13.668,
+    "offline_mode": true
+  }
+}

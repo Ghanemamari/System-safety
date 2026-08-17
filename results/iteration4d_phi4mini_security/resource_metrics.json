@@ -1,0 +1,28 @@
+{
+  "download_performed_this_iteration": false,
+  "model_load_seconds": 41.14756471198052,
+  "after_model_load": {
+    "allocated_bytes": 7672044544,
+    "reserved_bytes": 7675576320,
+    "peak_allocated_bytes": 7672044544,
+    "peak_reserved_bytes": 7675576320
+  },
+  "inference_peak_allocated_bytes": 7774541312,
+  "inference_peak_reserved_bytes": 7813988352,
+  "before_unload": {
+    "allocated_bytes": 7680563712,
+    "reserved_bytes": 7813988352
+  },
+  "after_unload": {
+    "allocated_bytes": 8519680,
+    "reserved_bytes": 20971520
+  },
+  "completed_runs": 162,
+  "inference_runtime_seconds": 132.67640878702514,
+  "mean_generation_latency_ms": 806.3984567901234,
+  "total_runtime_seconds": 173.82397349900566,
+  "snapshot_reused_from_iteration4c": true,
+  "median_generation_latency_ms": 745.095,
+  "p95_generation_latency_ms": 1327.32,
+  "latency_denominator": 162
+}

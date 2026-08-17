@@ -1,0 +1,4 @@
+Architecture,Proposal Compromise Rate,Executable Compromise Rate,Executed Violation Rate,Raw ASR,Conditional ASR,Conditional denominator,"IVR (historical, all runs)","UAR (historical, all runs)",Delta_sec,Clean Task Utility,Attack Task Utility,Parser Success,Policy Containment Rate,Containment denominator,Clean Task Completion
+naive,0.6,0.6,0.6,0.6,0.6,10,0.4,0.4,0.6,1.0,0.3,1.0,0.0,6,1
+policy_gate,0.6,0.6,0,0,0,10,0,0.0,0.0,1.0,0.4,1.0,1.0,6,1
+prompt_defense,0.2,0.2,0.2,0.2,0.3333333333333333,6,0.13333333333333333,0.13333333333333333,0.2,0.6,0.4,0.6666666666666666,0.0,2,0.6

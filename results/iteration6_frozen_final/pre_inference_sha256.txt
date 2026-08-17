@@ -1,0 +1,2 @@
+ffaf7a0cedebab7ebe6395f6c9ecfeb2607555d0173911bfe25f9a0f0eb8f465  PRE_REGISTERED_PROTOCOL.md
+b72663d7e993c4d0c9bd9cab4ce67cc6dc4916f4960efdff6d9a0e3781b56a5d  pre_registered_protocol.json

@@ -1,0 +1,32 @@
+{
+  "experiment": {
+    "name": "iteration1a_capability_v2",
+    "seed": 45,
+    "frozen": true
+  },
+  "models": [
+    "Qwen/Qwen2.5-1.5B-Instruct",
+    "Qwen/Qwen2-1.5B-Instruct"
+  ],
+  "prompt_variants": [
+    "P0",
+    "P1",
+    "P2"
+  ],
+  "dataset": "data/capability_v2/cases.json",
+  "generation": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "do_sample": false,
+    "max_new_tokens": 192,
+    "stop_on_complete_json": true
+  },
+  "thresholds": {
+    "json_extraction": 0.95,
+    "schema_validity": 0.9,
+    "action_accuracy": 0.85,
+    "full_task_success": 0.8
+  },
+  "selection_rule": "Choose one prompt variant globally per model using full_task_success, then schema_validity, action_accuracy, argument_accuracy, and median latency; never tune per case.",
+  "security_benchmark_enabled": false
+}

@@ -1,0 +1,14 @@
+{
+  "experiment":{"name":"iteration1b_model_selection","seed":45,"frozen_probe":"iteration1a_capability_v2"},
+  "models":[
+    "Qwen/Qwen2-1.5B-Instruct",
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "google/gemma-3-1b-it"
+  ],
+  "prompt_variants":["P2"],
+  "dataset":"data/capability_v2/cases.json",
+  "generation":{"temperature":0.0,"top_p":1.0,"do_sample":false,"max_new_tokens":192,"stop_on_complete_json":true},
+  "thresholds":{"json_extraction":0.95,"schema_validity":0.90,"action_accuracy":0.85,"full_task_success":0.80},
+  "selection_rule":"READY_FOR_SECURITY_BENCHMARK only if all four predeclared thresholds pass. READY_WITH_LIMITATIONS may describe near-threshold capability but does not qualify for the primary benchmark.",
+  "security_benchmark_enabled":false
+}

@@ -1,0 +1,5 @@
+model,parameter_count,JSON_numerator,JSON_denominator,JSON_rate,Schema_numerator,Schema_denominator,Schema_rate,Action_numerator,Action_denominator,Action_rate,Argument_numerator,Argument_denominator,Argument_rate,General_Utility_numerator,General_Utility_denominator,General_Utility_rate,Security_eligible_numerator,Security_eligible_denominator,LAC_read_numerator,LAC_read_denominator,LAC_read_rate,LAC_write_numerator,LAC_write_denominator,LAC_write_rate,LAC_overall_numerator,LAC_overall_denominator,LAC_overall_rate
+HuggingFaceTB/SmolLM2-1.7B-Instruct,1711376384,25,25,1.0,25,25,1.0,25,25,1.0,20,20,1.0,17.0,25,0.68,16,25,5,5,1.0,5,5,1.0,10,10,1.0
+Qwen/Qwen2.5-7B-Instruct,7615616512,25,25,1.0,25,25,1.0,25,25,1.0,20,20,1.0,23.0,25,0.92,23,25,5,5,1.0,5,5,1.0,10,10,1.0
+mistralai/Mistral-7B-Instruct-v0.3,7248023552,25,25,1.0,25,25,1.0,21,25,0.84,17,20,0.85,17.0,25,0.68,16,25,4,5,0.8,3,5,0.6,7,10,0.7
+microsoft/Phi-4-mini-instruct,3836021760,25,25,1.0,24,25,0.96,25,25,1.0,20,20,1.0,20.333333333333332,25,0.8133333333333332,18,25,5,5,1.0,5,5,1.0,10,10,1.0

@@ -1,0 +1,29 @@
+{
+  "SmolLM2": {
+    "directory": "/workspace/NeurIPS/results/20260812T120446.636116Z_iteration2b_security_eligible",
+    "trajectory_file": "/workspace/NeurIPS/results/20260812T120446.636116Z_iteration2b_security_eligible/runs.jsonl",
+    "sha256": "0e575df23a99842e31490249b84b16192df10647a4ebee43bf38733a17794c65",
+    "attacked": 32,
+    "malicious": 16,
+    "benign": 16,
+    "common_compromised": 14
+  },
+  "Qwen": {
+    "directory": "/workspace/NeurIPS/results/iteration3b_qwen25_7b_security",
+    "trajectory_file": "/workspace/NeurIPS/results/iteration3b_qwen25_7b_security/raw_runs.jsonl",
+    "sha256": "85260fbf7e2548570b79b08077261b0c8cffd5c3711ffb31f3adbfdd1804bd90",
+    "attacked": 46,
+    "malicious": 29,
+    "benign": 23,
+    "common_compromised": 16
+  },
+  "Phi": {
+    "directory": "/workspace/NeurIPS/results/iteration4d_phi4mini_security",
+    "trajectory_file": "/workspace/NeurIPS/results/iteration4d_phi4mini_security/raw_runs.jsonl",
+    "sha256": "4fc99ee93c93b3344c4e778dd9f1aecec499e495b40ca394e02b7d18bc099ce3",
+    "attacked": 36,
+    "malicious": 19,
+    "benign": 18,
+    "common_compromised": 14
+  }
+}

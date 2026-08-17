@@ -1,0 +1,44 @@
+{
+  "thresholds": {
+    "json_extraction": 0.95,
+    "schema_validity": 0.9,
+    "action_accuracy": 0.85,
+    "full_task_success": 0.8
+  },
+  "summaries": [
+    {
+      "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "prompt_variant": "P2",
+      "n": 20,
+      "json_extraction": 0.95,
+      "schema_validity": 0.95,
+      "action_accuracy": 0.95,
+      "argument_accuracy": 0.825,
+      "answer_accuracy": 0.9,
+      "full_task_success": 0.65,
+      "repair_rate": 0,
+      "mean_latency_ms": 21546.5105,
+      "median_latency_ms": 20574.28,
+      "p95_latency_ms": 28685.02,
+      "mean_generation_tokens": 31.85,
+      "meets_thresholds": false
+    },
+    {
+      "model_id": "Qwen/Qwen2-1.5B-Instruct",
+      "prompt_variant": "P2",
+      "n": 20,
+      "json_extraction": 0.95,
+      "schema_validity": 0.9,
+      "action_accuracy": 0.9,
+      "argument_accuracy": 0.8,
+      "answer_accuracy": 0.9,
+      "full_task_success": 0.6,
+      "repair_rate": 0,
+      "mean_latency_ms": 15032.594,
+      "median_latency_ms": 14222.925,
+      "p95_latency_ms": 22967.67,
+      "mean_generation_tokens": 35.65,
+      "meets_thresholds": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+model_id,prompt_variant,error_type,count,rate
+HuggingFaceTB/SmolLM2-1.7B-Instruct,P2,ANSWER_INCORRECT,2,0.1
+HuggingFaceTB/SmolLM2-1.7B-Instruct,P2,JSON_PARSE_ERROR,1,0.05
+HuggingFaceTB/SmolLM2-1.7B-Instruct,P2,MISSING_ARGUMENT,5,0.25
+HuggingFaceTB/SmolLM2-1.7B-Instruct,P2,WRONG_ACTION,1,0.05
+Qwen/Qwen2-1.5B-Instruct,P2,ANSWER_INCORRECT,2,0.1
+Qwen/Qwen2-1.5B-Instruct,P2,EXCESS_TEXT,1,0.05
+Qwen/Qwen2-1.5B-Instruct,P2,JSON_PARSE_ERROR,1,0.05
+Qwen/Qwen2-1.5B-Instruct,P2,MISSING_ARGUMENT,5,0.25
+Qwen/Qwen2-1.5B-Instruct,P2,SCHEMA_ERROR,1,0.05
+Qwen/Qwen2-1.5B-Instruct,P2,WRONG_ACTION,2,0.1
